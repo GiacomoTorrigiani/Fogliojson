@@ -8,149 +8,6 @@
         "env": []
     },
     {
-        "id": "6fec3559ef62b232",
-        "type": "alexa-remote-account",
-        "name": "Prova",
-        "authMethod": "proxy",
-        "proxyOwnIp": "test.local",
-        "proxyPort": "3455",
-        "cookieFile": "/root/.node-red/account.cookie",
-        "refreshInterval": "3",
-        "alexaServiceHost": "alexa.amazon.it",
-        "amazonPage": "amazon.it",
-        "acceptLanguage": "it-IT",
-        "userAgent": "",
-        "useWsMqtt": "on",
-        "autoInit": "on"
-    },
-    {
-        "id": "460284767f342b79",
-        "type": "ui_group",
-        "name": "Inserisci IP crhomecast",
-        "tab": "1e32dfe70ba2b072",
-        "order": 1,
-        "disp": true,
-        "width": "6",
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "077688841874a022",
-        "type": "ui_group",
-        "name": "Inserisci il tuo nome",
-        "tab": "1e32dfe70ba2b072",
-        "order": 2,
-        "disp": true,
-        "width": "6",
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "1e32dfe70ba2b072",
-        "type": "ui_tab",
-        "name": "Home",
-        "icon": "dashboard",
-        "disabled": false,
-        "hidden": false
-    },
-    {
-        "id": "b12fcb7514e78d30",
-        "type": "ui_base",
-        "theme": {
-            "name": "theme-light",
-            "lightTheme": {
-                "default": "#0094CE",
-                "baseColor": "#0094CE",
-                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
-                "edited": true,
-                "reset": false
-            },
-            "darkTheme": {
-                "default": "#097479",
-                "baseColor": "#097479",
-                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
-                "edited": false
-            },
-            "customTheme": {
-                "name": "Untitled Theme 1",
-                "default": "#4B7930",
-                "baseColor": "#4B7930",
-                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
-            },
-            "themeState": {
-                "base-color": {
-                    "default": "#0094CE",
-                    "value": "#0094CE",
-                    "edited": false
-                },
-                "page-titlebar-backgroundColor": {
-                    "value": "#0094CE",
-                    "edited": false
-                },
-                "page-backgroundColor": {
-                    "value": "#fafafa",
-                    "edited": false
-                },
-                "page-sidebar-backgroundColor": {
-                    "value": "#ffffff",
-                    "edited": false
-                },
-                "group-textColor": {
-                    "value": "#1bbfff",
-                    "edited": false
-                },
-                "group-borderColor": {
-                    "value": "#ffffff",
-                    "edited": false
-                },
-                "group-backgroundColor": {
-                    "value": "#ffffff",
-                    "edited": false
-                },
-                "widget-textColor": {
-                    "value": "#111111",
-                    "edited": false
-                },
-                "widget-backgroundColor": {
-                    "value": "#0094ce",
-                    "edited": false
-                },
-                "widget-borderColor": {
-                    "value": "#ffffff",
-                    "edited": false
-                },
-                "base-font": {
-                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
-                }
-            },
-            "angularTheme": {
-                "primary": "indigo",
-                "accents": "blue",
-                "warn": "red",
-                "background": "grey",
-                "palette": "light"
-            }
-        },
-        "site": {
-            "name": "Node-RED Dashboard",
-            "hideToolbar": "false",
-            "allowSwipe": "false",
-            "lockMenu": "false",
-            "allowTempTheme": "true",
-            "dateFormat": "DD/MM/YYYY",
-            "sizes": {
-                "sx": 48,
-                "sy": 48,
-                "gx": 6,
-                "gy": 6,
-                "cx": 6,
-                "cy": 6,
-                "px": 0,
-                "py": 0
-            }
-        }
-    },
-    {
         "id": "f61aea2542437351",
         "type": "switch",
         "z": "bd230b2d7e916b48",
@@ -1348,7 +1205,7 @@
                         "payload": {
                             "skill": {
                                 "type": "str",
-                                "value": "amzn1.ask.skill.89a70dd3-31b4-483e-9d7d-fc8761827996"
+                                "value": "amzn1.ask.skill.6cdfc8e6-b6a1-4597-a569-c74350aeed6f"
                             },
                             "device": {
                                 "type": "msg",
@@ -1480,7 +1337,7 @@
                         "payload": {
                             "skill": {
                                 "type": "str",
-                                "value": "amzn1.ask.skill.89a70dd3-31b4-483e-9d7d-fc8761827996"
+                                "value": "amzn1.ask.skill.6cdfc8e6-b6a1-4597-a569-c74350aeed6f"
                             },
                             "device": {
                                 "type": "msg",
@@ -8223,5 +8080,51 @@
         "x": 405,
         "y": 440,
         "wires": []
+    },
+    {
+        "id": "6fec3559ef62b232",
+        "type": "alexa-remote-account",
+        "name": "Prova",
+        "authMethod": "proxy",
+        "proxyOwnIp": "test.local",
+        "proxyPort": "3455",
+        "cookieFile": "/root/.node-red/account.cookie",
+        "refreshInterval": "3",
+        "alexaServiceHost": "alexa.amazon.it",
+        "amazonPage": "amazon.it",
+        "acceptLanguage": "it-IT",
+        "userAgent": "",
+        "useWsMqtt": "on",
+        "autoInit": "on"
+    },
+    {
+        "id": "460284767f342b79",
+        "type": "ui_group",
+        "name": "Inserisci IP crhomecast",
+        "tab": "1e32dfe70ba2b072",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "077688841874a022",
+        "type": "ui_group",
+        "name": "Inserisci il tuo nome",
+        "tab": "1e32dfe70ba2b072",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "1e32dfe70ba2b072",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
     }
 ]
